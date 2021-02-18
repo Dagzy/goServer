@@ -1,0 +1,28 @@
+{
+    "organizations":[
+        {
+            "name":"LovelyDay Enterprises",
+            "goal":9001
+        },
+        {
+            "name":"The March Of Dollars",
+            "goal":10000
+        },
+        {
+            "name":"Save The Wales (and England too)",
+            "goal":42
+        },
+        {
+            "name":"We Love Armadillos",
+            "goal": 8080
+        },
+        {
+            "name":"Dentists For Free Toothbrushes",
+            "goal":3000
+        },
+        {
+            "name":"Witches Against Leaky Cauldrons",
+            "goal":777
+        }
+    ]
+}

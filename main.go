@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"net/http"
 	"os"
 )
@@ -19,6 +18,6 @@ func main() {
 	}
 }
 func getBids(w http.ResponseWriter, r *http.Request) {
-	fmt.Println("Working")
-	fmt.Fprintf(w, `{"cause":[{"name":"LovelyDay Inc."}]}`)
+	http.ServeFile(w, r, "./organizations.json")
+	// fmt.Fprintf(w, `{"cause":[{"name":"LovelyDay Inc."}]}`)
 }
