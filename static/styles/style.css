@@ -1,0 +1,18 @@
+body{
+    background-color: rgb(219, 0, 0);
+}
+header{
+    position: relative;
+    text-align: center;
+}
+header > h1, img {
+    vertical-align: middle;
+}
+#logo{
+    height: 48px;
+}
+#welcome{
+    color: white;
+    display: inline;
+    text-shadow: 3px -1px gray;
+}
