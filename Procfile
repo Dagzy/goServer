@@ -1,1 +1,1 @@
-web: deployServer
+web: deployserver
