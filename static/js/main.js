@@ -1,5 +1,5 @@
 console.log("Working");
-fetch("http://localhost:9001/getBids")
+fetch("https://powerful-sands-61874.herokuapp.com//getBids")
 .then(res => res.json())
 .then(data => {
 console.log(data);
